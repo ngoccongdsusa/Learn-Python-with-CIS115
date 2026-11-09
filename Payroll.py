@@ -39,6 +39,8 @@ hours_worked = float(input("Enter the number of hours worked: "))
 number_of_dependents = int(input ("Enter the number of dependents: "))
 job_code = int(input("Enter the job code (1, 2, or 3): ")) 
 
+#Choose department
+department = ["Sales", "Marketing", "IT", "HR", "Accounting"]
 
 # Perform pay rate based on job code
 if job_code == 1:
